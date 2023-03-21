@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power Information</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 5px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <table id="powerInfoTable">
+        <thead>
+		<tr>
+    			<th>DeviceID</th>
+   			<th>DeviceName</th>
+    			<th>PowerUsage(W)</th>
+    			<th>Status</th>
+    			<th>LastUpdated</th>
+		</tr>
+        </thead>
+        <tbody id="powerInfoTableBody">
+        </tbody>
+    </table>
+    <script src="power_info.js"></script>
+</body>
+</html>
