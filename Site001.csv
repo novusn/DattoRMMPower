@@ -1,0 +1,6 @@
+﻿DeviceID,DeviceName,PowerUsage(W),Status,LastUpdated
+001,Device A,150,Active,2023-03-20 10:00:00
+002,Device B,200,Active,2023-03-20 10:05:00
+003,Device C,120,Inactive,2023-03-20 09:55:00
+004,Device D,180,Active,2023-03-20 10:10:00
+005,Device E,160,Active,2023-03-20 10:15:00
