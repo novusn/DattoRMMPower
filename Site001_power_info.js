@@ -1,4 +1,4 @@
-const csvUrl = 'https://github.com/novusn/DattoRMMPower/blob/main/Site001.csv';
+const csvUrl = 'https://novusn.github.io/DattoRMMPower/Site001.csv';
 
 function displayPowerInfo(data) {
     const tableBody = document.getElementById('powerInfoTableBody');
